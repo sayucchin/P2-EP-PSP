@@ -1,14 +1,6 @@
 # Persona 2: Eternal Punishment (PSP) [NPJH50581]
 ## How to apply
-You need a copy of the game in ISO format. Download and extract the p2ep_en_v1.0.zip file. Then, simply drag the ISO onto patcher.exe and wait for it to complete. Alternatively, you can pass the ISO as the first and only argument on the command line. During patching, about 1GB of extra space will be used. The original ISO is not modified.
-
-Original ISO:
-
-File SHA-1 c7df3598b72e293ad5a338e54df2e8fecde8e616
-
-Patched ISO:
-
-File SHA-1 d63b18a71c872fb1a6a89cdd90d56ae2a8b2c155
+You need a copy of the game in ISO format. Download and extract the p2ep_en_v1.0.zip file. Then, simply drag the ISO onto patcher.exe and wait for it to complete. Alternatively, you can pass the ISO as the first and only argument on the command line. During patching, about 1GB of extra space will be used. The original ISO is not modified. This patch has been tested on PPSSPP, PSVITA and PSP.
 
 ## Patcher
 The patcher uses code from PPSSPP in order to decrypt the eboot.bin. Additionally, https://github.com/wmltogether/CriPakTools was used as a reference for the cpk code. xdelta3 is used for patching the files. The complete source code is available in patcher_src.zip
